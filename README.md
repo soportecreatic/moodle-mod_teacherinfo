@@ -1,8 +1,8 @@
-# Teacher information #
+# Teacher Information #
 
-TODO Describe the plugin shortly here.
+This plugin allows easily to show teacher's information in course view.
 
-TODO Provide more detailed description here.
+Teacher Information allows you to show easily teacher's information on course view as a label. It allows to show teacher's name, avatar and description taken from Moodle user settings, and allows you to configure what custom fields do you want to show in the resource. Additionally, you can show current course description or use a custom one and set custom titles in course and teacher's information.
 
 ## License ##
 

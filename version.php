@@ -27,5 +27,5 @@ defined('MOODLE_INTERNAL') || die();
 $plugin->component = 'mod_teacherinfo';
 $plugin->release = '1.0.1';
 $plugin->version = 2019082100;
-$plugin->requires = 2018010100;
+$plugin->requires = 2019120800;
 $plugin->maturity = MATURITY_STABLE;
