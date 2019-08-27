@@ -1,0 +1,62 @@
+/**
+ * File styles.css.
+ * Contains base styles for teacher information label.
+ */
+
+.modtype_teacherinfo div {
+    box-sizing: border-box;
+}
+
+.modtype_teacherinfo .title {
+    font-weight: bold;
+}
+
+.modtype_teacherinfo .description {
+    padding: 0 15px 20px;
+}
+
+.modtype_teacherinfo .teacher-information {
+    padding: 10px 15px;
+}
+
+.modtype_teacherinfo .image img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.modtype_teacherinfo .custom-fields > li {
+    list-style-type: none;
+}
+
+.modtype_teacherinfo .author-info {
+    font-size: 12px;
+    opacity: .6;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .modtype_teacherinfo .image {
+        text-align: center;
+    }
+
+    .modtype_teacherinfo .image img {
+        max-width: 200px;
+    }
+
+    .modtype_teacherinfo .title {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modtype_teacherinfo .with-avatar {
+        float: left;
+        width: 75%;
+    }
+
+    .modtype_teacherinfo .image {
+        float: left;
+        width: 25%;
+    }
+}
