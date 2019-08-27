@@ -17,15 +17,11 @@
 /**
  * Plugin version and other meta-data are defined here.
  *
- * @package     mod_teacherinfo
- * @copyright   2019, Creatic SAS <soporte@creatic.co>
+ * @package     mod_videoredirect
+ * @copyright   2019, Creatic SAS <soporte@creatic.co>.
  * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
+function xmldb_teacherinfo_upgrade($oldversion) {
 
-$plugin->component = 'mod_teacherinfo';
-$plugin->release = '1.0.1';
-$plugin->version = 2019082100;
-$plugin->requires = 2018120300;
-$plugin->maturity = MATURITY_STABLE;
+}
